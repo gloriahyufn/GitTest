@@ -6,7 +6,7 @@ Created on Thu Jul  7 12:40:53 2022
 """
 
 # this is a sample dictionary
-my_dict = {'a': 1, 'b': 2, 'c': 3, 5: 'd'}
+my_dict = {'a': 20, 'b': 17, 'c': 35, 5: 'd'}
 
 # print only the keys from my_dict
 list(my_dict.keys())
@@ -21,16 +21,16 @@ list(my_dict.items())
 print(list(my_dict.items()))
 
 # print 
-my_dict['a'] = 1337
-my_dict['b'] = 1500
-my_dict['c'] = 34
-my_dict['d'] = 1
+my_dict['a'] = 5000
+my_dict['b'] = 2000
+my_dict['c'] = 1000
+my_dict['d'] = 900
 my_dict
 print(my_dict)
 
-del my_dict['b']
+del my_dict['c']
 print(my_dict)
 
-my_dict.pop('c')
+my_dict.pop('a')
 
 my_dict

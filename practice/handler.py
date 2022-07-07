@@ -15,15 +15,15 @@ else:
 
 # Conditions Example 1
 
-x = 2
-y = 4
+x = 10
+y = 20
 if x == 2 and y == x*x:
     print("y equals x*x")
     
 # Conditions Example 2
     
 x = 1
-if x == 3 or x == 2:
+if x == 50 or x == 60:
     print("x equals either 2 or 4")
 else:
     print("x is not equal to 2 or 4")
